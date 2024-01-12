@@ -1,0 +1,305 @@
+body {
+  font-family: "Blinker", sans-serif;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+}
+
+.row[data-astro-cid-iv4ludrr] {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+/* HERO Section Styles */
+.usp {
+  margin: 0;
+}
+
+.usp span {
+  display: flex;
+  margin: 0 5px;
+  font-size: 13px;
+  align-items: center;
+}
+
+.usp img {
+  height: 16px;
+  margin-top: -2px;
+  padding-right: 5px;
+}
+
+/* HERO Section Styles End */
+
+/* CARD Section Styles */
+
+.card-header[data-astro-cid-bwwy3pc6] {
+  border: none;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card[data-astro-cid-bwwy3pc6] {
+  border: none;
+  border-radius: 10px;
+  /* background: none; */
+  width: 400px;
+  position: relative;
+}
+
+.card .flag {
+  color: #fff;
+}
+
+.card .details strong {
+  font-size: 1.25rem;
+}
+
+.overlay[data-astro-cid-bwwy3pc6] {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  border-radius: 10px 10px 0 0;
+  opacity: 0.6;
+}
+
+.flag {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 80px;
+  width: fit-content;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  z-index: 1000;
+  box-shadow: 2px 2px 2px #000;
+}
+
+.flag.top {
+  background: #36c218;
+}
+
+.flag[data-astro-cid-bwwy3pc6].new {
+  background: #0d6efd;
+}
+
+.flag[data-astro-cid-bwwy3pc6].good {
+  background: #065b33;
+}
+
+.flag[data-astro-cid-bwwy3pc6].best {
+  background: #dc3545;
+}
+
+/* Card inside styles */
+
+.logo {
+  padding: 30px;
+  max-height: 100%;
+}
+
+.brand-logo {
+  width: 100%;
+  height: 60px;
+}
+
+.card-header .row {
+  height: 100px;
+  z-index: 100;
+  position: sticky;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.ratings {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  color: #b1b1b1;
+  overflow: hidden;
+  height: 30%;
+}
+
+.checked {
+  color: #fde16d;
+}
+
+span.stars {
+  color: #f0ad4e;
+}
+
+.full-stars {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fde16d;
+}
+
+.empty-stars:before,
+.full-stars:before {
+  content: "★★★★★";
+  font-size: 20pt;
+}
+
+.card .details > div {
+  line-height: 1.2;
+}
+
+.card .details {
+  background: #0009;
+  color: #fff;
+}
+/* left side of the card */
+.bonus[data-astro-cid-bwwy3pc6] {
+  text-align: center;
+  font-size: 12px;
+  color: #00000080;
+}
+
+.usps[data-astro-cid-bwwy3pc6],
+.bonus[data-astro-cid-bwwy3pc6] {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bonus[data-astro-cid-bwwy3pc6] strong {
+  background: #2aab16;
+  color: #fff;
+  padding: 7px;
+  font-size: 18px;
+  line-height: 30px;
+  border-radius: 7px;
+  display: table;
+  margin: 5px auto;
+}
+
+.card[data-astro-cid-bwwy3pc6] .usp[data-astro-cid-bwwy3pc6] {
+  font-size: 12px;
+}
+
+.card-body[data-astro-cid-bwwy3pc6] i[data-astro-cid-bwwy3pc6] {
+  color: #36c218;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.payment[data-astro-cid-bwwy3pc6] {
+  padding: 0 5px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+/* arrow that hides and reveals other payment methods */
+.payments[data-astro-cid-bwwy3pc6].closed
+  .payment-col[data-astro-cid-bwwy3pc6]:not(
+    :first-child,
+    :nth-child(2),
+    :nth-child(3),
+    .expander
+  ) {
+  display: none;
+}
+
+.payment[data-astro-cid-bwwy3pc6].expander {
+  background: #eee;
+}
+
+.payment[data-astro-cid-bwwy3pc6].expander i[data-astro-cid-bwwy3pc6] {
+  color: #000 !important;
+}
+/* hides the arrow (expander button) */
+.payments[data-astro-cid-bwwy3pc6]:not(.closed)
+  .payment[data-astro-cid-bwwy3pc6].expander {
+  display: none !important;
+}
+
+.expander:hover {
+  cursor: pointer;
+}
+
+/* right side of the card */
+.phone[data-astro-cid-bwwy3pc6] {
+  padding: 15px 7px;
+  background-color: #222;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px #0000007f;
+  height: 320px;
+  overflow: hidden;
+}
+
+.screen[data-astro-cid-bwwy3pc6] {
+  width: 100%;
+  height: 290px;
+  border-radius: 10px;
+  display: block;
+}
+
+.card-footer[data-astro-cid-bwwy3pc6] .tc[data-astro-cid-bwwy3pc6] {
+  font-size: 10px;
+  color: #747474;
+  text-align: center;
+  max-height: 40px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+/* Card inside styles End */
+/* CARD Section Styles End */
+
+/* Marketing description */
+.marketing-description[data-astro-cid-iv4ludrr] {
+  font-style: italic;
+  font-size: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
