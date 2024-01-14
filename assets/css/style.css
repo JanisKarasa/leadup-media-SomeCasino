@@ -13,12 +13,24 @@ body {
   justify-content: center;
 }
 
+nav[data-astro-cid-tfeuazss].dark-trans {
+  background: #0000007f;
+}
+
 .navbar-brand {
   color: #fff;
 }
 
+.main-content[data-astro-cid-wdm6shyt] {
+  min-height: 100vh;
+}
+
 /* HERO Section Styles */
-.usp {
+.text-shadow[data-astro-cid-carwe2gw] {
+  text-shadow: 2px 2px 1px #000;
+}
+
+.hero[data-astro-cid-carwe2gw] .usp {
   margin: 0;
 }
 
